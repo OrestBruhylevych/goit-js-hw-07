@@ -36,8 +36,9 @@ function onGalleryItemsClick(e) {
 }
 
 function addPreventDefaultLink (link) {
-   return link.addEventListener('click', (e) => {
-        e.preventDefault()})
+    return link.addEventListener('click', (e) => {
+        e.preventDefault()
+    });
 }
 
 function createGalleryItemsMarkup(images) {
